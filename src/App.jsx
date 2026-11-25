@@ -98,7 +98,7 @@ function HomePage() {
             <img
               alt="Exemplo visual de uma loja online da Vyro em vários dispositivos"
               className="store-image"
-              src="/vyro-store.png"
+              src={`${import.meta.env.BASE_URL}vyro-store.png`} 
             />
             <div className="visual-caption">
               <span className="caption-dot" />
